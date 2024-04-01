@@ -1,0 +1,12 @@
+mutation {
+    resorts {
+        create(input: {
+            name: "lowercase",
+            summit_elevation: 8000,
+            base_elevation: 6000,
+        }) {
+            id,
+            name
+        }
+    }
+}

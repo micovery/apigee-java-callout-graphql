@@ -1,0 +1,8 @@
+{
+  "query": "query MyQuery($filter: ResortsFilter) {\n  resorts(input: $filter) {\n    id\n    name\n  }\n}\n",
+  "variables": {
+    "filter": {
+      "id": 1.0
+    }
+  }
+}

@@ -1,0 +1,7 @@
+mutation AddResortMutation {
+    resorts {
+        create(input: {name : "Test", summit_elevation : 4000, base_elevation : 6000}) {
+            name
+        }
+    }
+}

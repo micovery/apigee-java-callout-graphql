@@ -1,0 +1,6 @@
+schema: schema.graphql
+documents: '**/*.graphql'
+extensions:
+  endpoints:
+    Ski Resorts:
+      url: https://apigee-graphql-demo-server-p57ysoduga-wl.a.run.app/
